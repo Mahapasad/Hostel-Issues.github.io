@@ -158,8 +158,10 @@ hr{
     margin-top: 1%;
     margin-bottom: 3%;
     background-color: white;
-    filter: drop-shadow(0 0 10px  rgba(0, 0, 0, 0.5));
     border-radius: 42px;
+}
+.box:hover{
+    filter: drop-shadow(0 0 10px  rgba(0, 0, 0, 0.5));
 }
 .box-image{
     height: auto;
@@ -177,5 +179,8 @@ hr{
     text-decoration: none;
     /* color: #4C0033; */
 }
+
+
+
 
 
