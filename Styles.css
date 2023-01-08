@@ -159,6 +159,7 @@ hr{
     margin-bottom: 3%;
     background-color: white;
     border-radius: 42px;
+
 }
 .box:hover{
     filter: drop-shadow(0 0 10px  rgba(0, 0, 0, 0.5));
@@ -179,8 +180,115 @@ hr{
     text-decoration: none;
     /* color: #4C0033; */
 }
+.contact-footer{
+    height: 87vh;
+    background-color: #205375;
+}
+.footer{
+    display: flex;
+}
+.left-footer{
+    width: 40%;
+    color: white;
+    font-family: 'Kantumruy Pro', sans-serif;
 
+}
+.form-footer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4vh;
+}
+#heading-footer{
+    color: white;
+    margin-left: 8vh;
+    margin-right:4vh ;
+    margin-bottom: 2vh;
+}
+.form-input{
+    border: none;
+    padding: 0.5vh;
+    margin-top: 1.5vh;
+    font-size: medium;
+    font-family: 'Kantumruy Pro', sans-serif;
+    width: 80%;
+    background-color: #205375;
+    border-bottom: 2px solid white;
+    color: white;
+    outline: none;
+    resize: both;
+}
+.btn-footer{
+    width: 16%;
+    margin-top: 4vh;
+    padding-top: 1.2vh;
+    font-size: medium;
+    background-color: #205375;
+    border-color: white;
+    color: white;
+    border-width: 3px;
+    border-radius: 18px;
+    cursor: pointer;
+}
+.btn-footer:hover{
+    background-color: white;
+    color: #205375;
+}
+#follow-us{
+    margin-bottom: 3vh;
+    font-size: 2.7vh;
+    margin-top: 6vh;
+}
+.social-media-icon-footer{
+    list-style-type: none;
+    display: flex;
+}
+.sm-i-footer{
+    margin-right: 9vh;
+}
+.vl{
+    border-left: 3px solid white;
+    height: 60vh;
+    margin-top: 5vh;
+    margin-left: 10%;
+  }
+  .right-footer{
+    display: flex;
+    width: 60%;
+    justify-content: end;
+    color: white;
+    font-family: 'Kantumruy Pro', sans-serif;
+}
+.map{
+    margin-right: 4vh;
+    margin-top: 5vh;
+}
+.google-map{
+    width: 35vw;
+    height: 49vh;
+}
+#Address{
+    display: flex;
+    justify-content: end;
+    font-size: larger;
+    margin-top: 1.5vh;
+    margin-bottom: 2vh;
+}
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10vw;
+    margin-top: 19.5vh;
+    font-size: 2.5vh;
+    list-style: none;
+}
+a:link{
+    text-decoration: none;
+    color: grey;
+}
 
+a:hover{
+    color: #EBBB31;
+}
 
 
 
